@@ -3,7 +3,7 @@
 
 ### Local Install (Mac or Linux)
 
-- Clone git repo from bitbucket `git clone ... ` 
+- Clone git repo from bitbucket `git clone https://github.com/rpacker/dev-test-sail.git` 
 - cd into the code dir```cd ./dev-test-sail```
 - Create docker containers `./vendor/bin/sail up`
 - In another terminal enter the container `docker exec -it dev-test-sail_laravel.test_1 bash`
