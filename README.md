@@ -15,7 +15,7 @@
 
 ---
 
-#### Running the above will:
+#### Running the above (php artisan email:process) will:
 
 - print out the results
 - log the results to `storage/logs/laravel.log`
