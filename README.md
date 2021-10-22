@@ -5,7 +5,7 @@
 
 - Clone git repo from bitbucket `git clone ... ` 
 - cd into the code dir```cd ./dev-test-sail```
-- Create docker containers ./vendor/bin/sail up`
+- Create docker containers `./vendor/bin/sail up`
 - In another terminal enter the container `docker exec -it dev-test-sail_laravel.test_1 bash`
 - Create the env file `cp .env.example .env`
 - run `composer update`
