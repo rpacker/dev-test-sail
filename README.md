@@ -15,8 +15,9 @@
 
 ---
 
-### NOTE:
-You could run this without the container as well, if you commented out the DB code in `app/Console/Commands/ProcessEmails.php` on Line 84. The only real difference is no docker, and no MySQL being used. 
+### NOTEs:
+- You could run this without the container as well, if you commented out the DB code in `app/Console/Commands/ProcessEmails.php` on Line 84. The only real difference is no docker, and no MySQL being used. 
+- It uses Laravel Sail for creating docker services/containers. https://laravel.com/docs/8.x/sail
 
 ---
 
