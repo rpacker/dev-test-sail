@@ -13,8 +13,12 @@
 - php-zip
 - composer (below shows using composer.par from the install dir)
 
+---
+
 ### NOTE:
 You could run this without the container as well, if you commented out the DB code in `app/Console/Commands/ProcessEmails.php` on Line 84. The only real difference is no docker, and no MySQL being used. 
+
+---
 
 ### Install (Mac or Linux)
 
